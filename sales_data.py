@@ -1,3 +1,12 @@
 # sales_data.py
 sales_data = [230, 200, 310, 290, 400, 150, 180]
 print(f"Sales data for the week: {sales_data}")
+
+def total_sales(data):
+    return sum(sales_data)
+
+def average_sales(data):
+    return sum(sales_data)/len(sales_data)
+
+print(f"Total sales: {total_sales(sales_data)}")
+print(f"Average sales: {average_sales(sales_data)}")
